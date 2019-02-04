@@ -1,5 +1,5 @@
 
-
+//for in server para percorrer principalmente objetos
 
 const pessoa = {
     nome: "Alex",
