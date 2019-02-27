@@ -1,12 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Lucas Pineda",
-        "email": "lucas.pineda@hotmail.com"
-    }, {
-        "id": 2,
-        "name": "joao Pineda",
-        "email": "joao.pineda@hotmail.com"
+  "users": [
+    {
+      "id": 1,
+      "name": "Lucas Pineda",
+      "email": "lucas.pineda@hotmail.com"
+    },
+    {
+      "id": 2,
+      "name": "joao Pineda",
+      "email": "joao.pineda@hotmail.com"
+    },
+    {
+      "name": "kascs",
+      "email": "slkdjlksdj",
+      "id": 3
     }
-]
+  ]
 }
