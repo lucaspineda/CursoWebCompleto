@@ -5,9 +5,8 @@ function fora(){
     function dentro(){
         return x
     }
-    return dentro()
+    return dentro
 }
 
 const minhaFuncao = fora();
 console.log(minhaFuncao())
-console.log(fora())
