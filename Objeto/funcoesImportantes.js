@@ -1,8 +1,11 @@
 const pessoa = {
     nome: 'Rebeca',
     idade: 2,
-    peso: 13
+    peso: 13,
+    idades: this
 }
+
+console.log(typeof(pessoa.idades))
 
 console.log(Object.keys(pessoa))
 console.log(Object.values(pessoa))
