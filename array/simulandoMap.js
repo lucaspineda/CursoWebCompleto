@@ -3,10 +3,10 @@ Array.prototype.map2 = function(callback){
     const novoArray = [];
     for (let index = 0; index < this.length; index++) {
         novoArray.push(callback(this[index], index, this));
-        novoArray[index] = this[index];
 
     }
     return novoArray;
+    
 }
 
 const carrinho = [
@@ -17,7 +17,7 @@ const carrinho = [
 ]
 
 const fazObjeto = json => JSON.parse(json);
-const pegaPreco = (objeto, index) => objeto.preco + 'index';
+const pegaPreco = (objeto, index) => objeto.preco;
 
 const precos = carrinho.map2(fazObjeto).map2(pegaPreco);
 
