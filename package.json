@@ -1,0 +1,22 @@
+{
+  "name": "cursowebcompleto",
+  "version": "1.0.0",
+  "description": "Curso Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas7796/CursoWebCompleto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas7796/CursoWebCompleto/issues"
+  },
+  "homepage": "https://github.com/Lucas7796/CursoWebCompleto#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
