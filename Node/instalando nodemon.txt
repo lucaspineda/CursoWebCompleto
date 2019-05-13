@@ -1,0 +1,11 @@
+
+nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+In order to install nodemon, run the following command:
+
+npm install -g nodemon
+
+
+In order to run nodemon, run in the chosen folder:
+
+nodemon 
