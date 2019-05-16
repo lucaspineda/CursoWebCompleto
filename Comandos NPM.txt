@@ -1,0 +1,7 @@
+Comandos NPM:
+
+npm init -y: Inicia package.json
+
+npm i --save express@4.16.2 -E: Instala o express na versão exata passada (também cria a pasta node_modules e package.lock)
+
+npm i --save body-parse@1.18.2 -E: Instala o body parse que transforma a string retornada pelo servidor em JSON
