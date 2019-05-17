@@ -9,9 +9,9 @@
 <body class="exercicio">
     <div id="app">
         <p>{{ link }}</p>
-        <p><a href="{{ link }}">Link?</a></p>
+        <p><a href="{{ link }}">Link?</a></p> <!--  //desta forma não funciona -->
         <p><a v-bind:href="link">Link?</a></p>
-        <p><a :href="link">Link?</a></p>
+        <p><a :href="link">Link?</a></p><!--  //outra forma de fazer binding -->
         <p>
             <input type="text" v-model="nome"><br>
             <span> {{ nome }}</span>
