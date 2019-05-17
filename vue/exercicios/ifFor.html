@@ -8,7 +8,18 @@
 </head>
 <body class="exercicio">
     <div id="app">
-        <p v-for="(aluno, i) in alunos"> {{ i+1 }}) {{ aluno.nome }} - {{ aluno.nota }} </p>
+        <p v-for="(aluno, i) in alunos"> 
+            {{ i+1 }}) {{ aluno.nome }} - {{ aluno.nota }}
+            <span v-if="aluno.nota >= 9">Quadro de honra</span>
+            <span v-else-if="aluno.nota >= 7">Bom!</span>
+            <span v-else>Péssimo!</span>
+        </p>
+        <ul style="list-style: none;">
+                <span v-for="n in 10">{{ n }} </span>
+                <li v-for="f in 8">
+                    <span v-show="f >= 4">{{f}}</span>
+                </li>
+        </ul>
     </div>
     <script>
         new Vue({
