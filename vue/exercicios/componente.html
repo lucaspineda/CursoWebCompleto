@@ -7,9 +7,26 @@
     <script src="/js/vue.min.js"></script>
 </head>
 <body class="exercicio">
+    <div id="app">
+        <saudacao nome="ana"></saudacao>
+        <saudacao nome="Lucas"></saudacao>
+        <saudacao nome="Joao"></saudacao>
+    </div>
 
     <script>
-        // ...
+        Vue.component( 'saudacao', {
+            props: ['nome'],
+            template: `
+                <div> Bom dia {{ nome }}! </div>
+            `,
+            methods: {
+
+            }
+        })
+
+        new Vue({
+            el: "#app"
+        })
     </script>
 </body>
 </html>
