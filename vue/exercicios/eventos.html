@@ -13,6 +13,7 @@
             <button v-on:click="add">+1</button>
             <button @click="contador -= 1">-1</button> <!-- outra forma de trabalhar com eventos-->
             <button @click="deletes">-1</button>
+            <button @click="teste">-1</button>
         </p>
         <p @mousemove="atualizarPosicao">
             Coordenadas: {{ x }} e {{ y }}
@@ -42,6 +43,9 @@
                 },
                 alerta() {
                     alert('Enter!')
+                },
+                teste() {
+                    this.el.innerHTML = `<p>a<p>` 
                 }
             }
         })
